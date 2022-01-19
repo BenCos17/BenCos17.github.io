@@ -50,15 +50,24 @@ body {
   font-size: 20px;
 }
 
-table,th,td{
-    width:1500px;
-    height:500px;
-    margin-left:auto;
-    margin-right:auto;
+#table1{
+    width:750px;
+    height:400px;
+    margin-left: auto;
+    margin-right: auto;
 /*    background: red;*/
     border: 2px;
-   border-spacing: 25px;
-    border-radius: 10px;
+/*   border-spacing: 25px;*/
+   border-radius: 7px;
+}
+#table2{
+    width: 100px;
+    }
+
+#table3{
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 25px;
 }
 
 
@@ -66,7 +75,7 @@ table,th,td{
         width:100%;
         height:100%;
         font-family: 'Montserrat', sans-serif;
-        font-size:33px;
+        font-size:27px;
         font-weight: bold;
         color:#000000;
        line-height: 1px;
@@ -85,13 +94,22 @@ table,th,td{
         text-align:left;
     }
 
+p{
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size:27px;
+    font-weight: bold;
+    color:#000000;
+}
+
+
 </style>
 <TITLE>Shop</TITLE>
 </head>
 <body>
 
 <div class="topnav">
-  <a class="active" href="">Mikes Motors</a>
+  <a class="active" href="">Mike's Motors</a>
   <a href="web.html">Home</a>
   <a href="shop.html">Shop</a>
   <a href="about_us.html">About Us</a>
@@ -107,17 +125,29 @@ table,th,td{
 <BR>
 
 
-<table id="table1"> <tr valign="top">
-<td style="background-image: url(brake.jpg); background-size: center;" class="fifty rabbits inthemiddle"><a class= "article" >Brake and Clutch Fluid ........ €9.55-€16.80</a></td>
-<td  style="background-image:url(coolant.png); background-size: cover;" class="fifty rabbits inthemiddle"><a class="article">Coolant ........ €12.50-€32</a></td>
+<table id="table3"> <tr valign="top">
+<td id="table1" style="background-image: url(pic/clutch..jpg); background-size: contain ;" class="fifty rabbits inthemiddle"><a class= "article" >Brake and Clutch Fluid <!--€9.55-€16.80--></a><p> Our Prices: €9.55-€16.80</p> <p>Competitors: €10.99-€18.50</p> </td>
+
+<td id="table2">
+</td>
+
+<td id="table1" style="background-image:url(pic/temp.jpg); background-size: cover;" class="fifty rabbits inthemiddle"><a class="article">Coolant</a> <p> Our Prices: €12.50-€32</p> <p>Competitors: €15.50-€45.99</p> </td>
 </tr>
 <tr valign="top">
-<td style="background-image:url(oil1.jpg); background-size: cover;" class="fifty rabbits inthemiddle"><a class="article">Engine Oil ........ €10.75-€30</a></td>
-<td style= "background-image: url(wipers.jpg); background-size: cover;" class="fifty rabbits inthemiddle"><a class="article ">Wipers ........ €12.50-€49</a></td>
+<td id="table1" style="background-image:url(pic/oiloil.png); background-size: cover;" class="fifty rabbits inthemiddle"><a class="article">Engine Oil </a> <p> Our Prices: €10.75-€30</p> <p>Competitors: €12.50-€31.99</p> </td>
+
+<td id="table2">
+</td>
+
+<td id="table1" style= "background-image: url(pic/wipers1.jpg); background-size: cover;" class="fifty rabbits inthemiddle"><a class="article ">Wipers</a> <p> Our Prices: €12.50-€49</p> <p>Competitors: €14.95-€50</p> </td>
 </tr>
-<tr valign="bottom">
-<td style="background-image:url(battery.jpg); background-size: cover;" class="fifty rabbits inthemiddle"><a class="article">Batteries........€70-€160</a></td>
-<td   style="background-image: url(spark.jpg); background-size: cover;" class="fifty rabbits inthemiddle"><a class="article">Spark Plugs........€3.60-€42  </a></td>
+<tr valign="bottom" id="table1">
+<td id="table1" style="background-image:url(pic/battery.jpg); background-size: cover;" class="fifty rabbits inthemiddle"><a class="article">Batteries</a> <p> Our Prices: €65-€160</p> <p>Competitors: €68.99-€180</p> </td>
+
+<td id="table2">
+</td>
+
+<td id="table1" style="background-image: url(pic/spark.jpg); background-size: cover;" class="fifty rabbits inthemiddle"><a class="article">Spark Plugs</a> <p> Our Prices: €3.60-€42</p> <p>Competitors: €4.50-€45</p> </td>
 </tr>
 </table>
 
